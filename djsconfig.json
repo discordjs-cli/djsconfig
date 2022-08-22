@@ -4,5 +4,5 @@
     "run": {
         "default": "nodemon"
     },
-    "version": "14"
+    "version": "v14"
 }
