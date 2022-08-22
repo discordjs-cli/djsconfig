@@ -4,5 +4,5 @@
     "run": {
         "default": "nodemon"
     },
-    "version": "v14"
+    "version": "Discord.js version"
 }
