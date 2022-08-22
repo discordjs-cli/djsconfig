@@ -3,5 +3,6 @@
     "format": "JavaScript/TypeScript",
     "run": {
         "default": "nodemon"
-    }
+    },
+    "version": "14"
 }
