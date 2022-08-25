@@ -4,5 +4,13 @@
     "run": {
         "default": "nodemon"
     },
-    "version": "Discord.js version"
+    "version": "Discord.js version",
+    "scripts": {
+        "deploy-global": "src/scripts/deploy-global.%framework%",
+        "deploy-dev": "src/scripts/deploy-dev.js",
+        "update-global": "src/scripts/update-global.%framework%",
+        "update-dev": "src/scripts/update-dev.%framework%",
+        "delete-global": "src/scripts/delete-global.%framework%",
+        "delete-dev": "src/scripts/delete-dev.%framework%"
+    }
 }
