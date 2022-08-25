@@ -7,7 +7,7 @@
     "version": "Discord.js version",
     "scripts": {
         "deploy-global": "%run% scripts/deploy-global.js",
-        "deploy-dev": "%run% src/scripts/deploy-dev.js",
+        "deploy-dev": "%run% scripts/deploy-dev.js",
         "update-global": "%run% scripts/update-global.js",
         "update-dev": "%run% scripts/update-dev.js",
         "delete-global": "%run% scripts/delete-global.js",
