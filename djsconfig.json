@@ -6,11 +6,11 @@
     },
     "version": "Discord.js version",
     "scripts": {
-        "deploy-global": "src/scripts/deploy-global.%framework%",
-        "deploy-dev": "src/scripts/deploy-dev.js",
-        "update-global": "src/scripts/update-global.%framework%",
-        "update-dev": "src/scripts/update-dev.%framework%",
-        "delete-global": "src/scripts/delete-global.%framework%",
-        "delete-dev": "src/scripts/delete-dev.%framework%"
+        "deploy-global": "%run% src/scripts/deploy-global.%framework%",
+        "deploy-dev": "%run% src/scripts/deploy-dev.js",
+        "update-global": "%run% src/scripts/update-global.%framework%",
+        "update-dev": "%run% src/scripts/update-dev.%framework%",
+        "delete-global": "%run% src/scripts/delete-global.%framework%",
+        "delete-dev": "%run% src/scripts/delete-dev.%framework%"
     }
 }
